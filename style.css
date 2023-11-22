@@ -1,0 +1,73 @@
+html{
+    background-color: rgb(255, 0, 0);
+}
+a{   text-decoration: none;
+color: black;
+transition: font-size 0.20s;
+font-weight: 400;
+
+
+}
+a:hover{
+font-size: larger;
+font-weight: 1000;
+
+}
+
+ul{
+ 
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+
+h1, h2, h3{
+    transition: font-size 0.20s;
+    cursor: pointer;
+}
+
+
+h1:hover, h2:hover, h3:hover{
+    font-size: 32px;
+    font-weight: 1000;
+}
+
+
+
+
+img{
+
+height: 300px;
+width: 500px;
+transition: height 0.20s, width 0.20s;
+cursor: pointer;
+
+
+}
+
+img:hover{
+    height: 400px;
+    width: 600px;
+}
+
+
+
+
+
+
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.davitaspoto {
+    border-radius: 50px;
+}
